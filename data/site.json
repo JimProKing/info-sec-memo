@@ -1,0 +1,598 @@
+{
+  "meta": {
+    "title": "정보보안기사 기출 요약집",
+    "subtitle": "손글씨 원본 기반 암기 노트",
+    "pageCount": 82,
+    "tagline": "기출 핵심만 압축한 내 요약본으로 암기하기",
+    "author": "정보보안기사 요약 노트",
+    "contact": {
+      "kakao": "caramel112",
+      "email": "caramel2516@naver.com"
+    },
+    "promo": {
+      "headline": "시험장에서 떠올릴 한 줄까지, 직접 정리한 기출 요약",
+      "points": [
+        "기출·핵심만 추려 손으로 압축한 원본 노트",
+        "과목별 82페이지 · 한 장씩 넘기며 암기",
+        "가리기 모드 · 진도 체크 · 랜덤 복습 지원"
+      ]
+    }
+  },
+  "chapters": [
+    {
+      "id": "sys",
+      "title": "시스템 보안",
+      "icon": "💻",
+      "desc": "OS · Windows · Linux · 권한 · 로그",
+      "start": 1,
+      "end": 8,
+      "color": "#2563eb"
+    },
+    {
+      "id": "net-basic",
+      "title": "네트워크 기초",
+      "icon": "🌐",
+      "desc": "라우팅 · TCP/IP · 스위칭 · ARP",
+      "start": 9,
+      "end": 13,
+      "color": "#0d9488"
+    },
+    {
+      "id": "net-attack",
+      "title": "네트워크 공격",
+      "icon": "⚡",
+      "desc": "DoS · 스캔 · 스니핑 · 하이재킹",
+      "start": 14,
+      "end": 18,
+      "color": "#dc2626"
+    },
+    {
+      "id": "vpn",
+      "title": "VPN · 보안장비",
+      "icon": "🔐",
+      "desc": "IPSEC · TLS · SIEM · IDS/IPS · NAC",
+      "start": 19,
+      "end": 27,
+      "color": "#7c3aed"
+    },
+    {
+      "id": "web",
+      "title": "웹 · 앱 보안",
+      "icon": "🧩",
+      "desc": "XSS · SQLi · 업로드 · 시큐어코딩",
+      "start": 28,
+      "end": 48,
+      "color": "#db2777"
+    },
+    {
+      "id": "ops",
+      "title": "실무 · 도구",
+      "icon": "🛠️",
+      "desc": "Snort · iptables · tcpdump · 점검",
+      "start": 49,
+      "end": 60,
+      "color": "#d97706"
+    },
+    {
+      "id": "mgmt",
+      "title": "정보보호 관리",
+      "icon": "📋",
+      "desc": "위험관리 · ISMS · CISO · 정책",
+      "start": 61,
+      "end": 69,
+      "color": "#059669"
+    },
+    {
+      "id": "law",
+      "title": "법 · 개인정보",
+      "icon": "⚖️",
+      "desc": "개인정보보호법 · 가명처리 · CCTV",
+      "start": 70,
+      "end": 80,
+      "color": "#4f46e5"
+    },
+    {
+      "id": "review",
+      "title": "종합 복습",
+      "icon": "🎯",
+      "desc": "킬체인 · 핵심 정리 · 마무리",
+      "start": 81,
+      "end": 82,
+      "color": "#0f172a"
+    }
+  ],
+  "pages": [
+    {
+      "n": 1,
+      "title": "쉘·커널·Windows PE·BitLocker·기본그룹",
+      "chapter": "sys",
+      "src": "pages/page_001.webp"
+    },
+    {
+      "n": 2,
+      "title": "저널링·UID·shadow·PAM·setuid·crontab",
+      "chapter": "sys",
+      "src": "pages/page_002.webp"
+    },
+    {
+      "n": 3,
+      "title": "xinetd·find·umask·권한",
+      "chapter": "sys",
+      "src": "pages/page_003.webp"
+    },
+    {
+      "n": 4,
+      "title": "lsof·find·유닉스 로그·logrotate",
+      "chapter": "sys",
+      "src": "pages/page_004.webp"
+    },
+    {
+      "n": 5,
+      "title": "로그 용량·history·wtmp·원격로그인 제한",
+      "chapter": "sys",
+      "src": "pages/page_005.webp"
+    },
+    {
+      "n": 6,
+      "title": "PAM 잠금·shadow 권한·NetBIOS·비밀번호 길이",
+      "chapter": "sys",
+      "src": "pages/page_006.webp"
+    },
+    {
+      "n": 7,
+      "title": "passwd/shadow 권한·sshd·Solaris 보안",
+      "chapter": "sys",
+      "src": "pages/page_007.webp"
+    },
+    {
+      "n": 8,
+      "title": "finger 비활성·SNMP·핸드셰이크 기초",
+      "chapter": "sys",
+      "src": "pages/page_008.webp"
+    },
+    {
+      "n": 9,
+      "title": "라우팅·CSMA/CA·SNMP·MAC 필터링",
+      "chapter": "net-basic",
+      "src": "pages/page_009.webp"
+    },
+    {
+      "n": 10,
+      "title": "TCP 핸드셰이크·플래그·캡슐화",
+      "chapter": "net-basic",
+      "src": "pages/page_010.webp"
+    },
+    {
+      "n": 11,
+      "title": "TTL·IPv6 전환·TCP 윈도우·메일·HTTP 캐시",
+      "chapter": "net-basic",
+      "src": "pages/page_011.webp"
+    },
+    {
+      "n": 12,
+      "title": "SNMP GetBulk·MIB·NAV·라우팅·VLAN",
+      "chapter": "net-basic",
+      "src": "pages/page_012.webp"
+    },
+    {
+      "n": 13,
+      "title": "브로드캐스트·스위칭·ARP·Smurf·Teardrop",
+      "chapter": "net-basic",
+      "src": "pages/page_013.webp"
+    },
+    {
+      "n": 14,
+      "title": "DNS 증폭·Land·SYN Flood·SSDP·PBA",
+      "chapter": "net-attack",
+      "src": "pages/page_014.webp"
+    },
+    {
+      "n": 15,
+      "title": "NTP 증폭·Billion Laughs·Ping of Death",
+      "chapter": "net-attack",
+      "src": "pages/page_015.webp"
+    },
+    {
+      "n": 16,
+      "title": "ACK Flood·DNS Query Flood·스텔스 스캔",
+      "chapter": "net-attack",
+      "src": "pages/page_016.webp"
+    },
+    {
+      "n": 17,
+      "title": "FIN 스캔·ACK 스캔·MAC 재밍·세션 하이재킹",
+      "chapter": "net-attack",
+      "src": "pages/page_017.webp"
+    },
+    {
+      "n": 18,
+      "title": "Ingress/Egress·DNS 스푸핑·IPSEC·TLS",
+      "chapter": "net-attack",
+      "src": "pages/page_018.webp"
+    },
+    {
+      "n": 19,
+      "title": "PSK·VPN 프로토콜·IPSEC 모드",
+      "chapter": "vpn",
+      "src": "pages/page_019.webp"
+    },
+    {
+      "n": 20,
+      "title": "ESP 터널·IKE·SPD/SAD·TLS 구조",
+      "chapter": "vpn",
+      "src": "pages/page_020.webp"
+    },
+    {
+      "n": 21,
+      "title": "E2EE·DTLS·SIEM·IPS·NAC·SOAR",
+      "chapter": "vpn",
+      "src": "pages/page_021.webp"
+    },
+    {
+      "n": 22,
+      "title": "IDS 미러링·보안 장비 개념",
+      "chapter": "vpn",
+      "src": "pages/page_022.webp"
+    },
+    {
+      "n": 23,
+      "title": "UTM·NAC·접근제어",
+      "chapter": "vpn",
+      "src": "pages/page_023.webp"
+    },
+    {
+      "n": 24,
+      "title": "airodump·무선 보안",
+      "chapter": "vpn",
+      "src": "pages/page_024.webp"
+    },
+    {
+      "n": 25,
+      "title": "라우터 명령·ACL·enable secret",
+      "chapter": "vpn",
+      "src": "pages/page_025.webp"
+    },
+    {
+      "n": 26,
+      "title": "Smurf 방지·directed-broadcast",
+      "chapter": "vpn",
+      "src": "pages/page_026.webp"
+    },
+    {
+      "n": 27,
+      "title": "SFTP·SSH 관련",
+      "chapter": "vpn",
+      "src": "pages/page_027.webp"
+    },
+    {
+      "n": 28,
+      "title": "XSS 개요",
+      "chapter": "web",
+      "src": "pages/page_028.webp"
+    },
+    {
+      "n": 29,
+      "title": "SQL 검증·SSRF·SQL Injection",
+      "chapter": "web",
+      "src": "pages/page_029.webp"
+    },
+    {
+      "n": 30,
+      "title": "웹 보안 체크리스트",
+      "chapter": "web",
+      "src": "pages/page_030.webp"
+    },
+    {
+      "n": 31,
+      "title": "robots.txt·크롤러",
+      "chapter": "web",
+      "src": "pages/page_031.webp"
+    },
+    {
+      "n": 32,
+      "title": "URL 인코딩·우회",
+      "chapter": "web",
+      "src": "pages/page_032.webp"
+    },
+    {
+      "n": 33,
+      "title": "Blind SQLi·DNS 레코드",
+      "chapter": "web",
+      "src": "pages/page_033.webp"
+    },
+    {
+      "n": 34,
+      "title": "DNS 증폭·캐시 포이즈닝",
+      "chapter": "web",
+      "src": "pages/page_034.webp"
+    },
+    {
+      "n": 35,
+      "title": "DNS 캐시 삭제·ipconfig",
+      "chapter": "web",
+      "src": "pages/page_035.webp"
+    },
+    {
+      "n": 36,
+      "title": "CVE·CWE·MITRE",
+      "chapter": "web",
+      "src": "pages/page_036.webp"
+    },
+    {
+      "n": 37,
+      "title": "불안전한 암호·검증 컴포넌트·시큐어코딩",
+      "chapter": "web",
+      "src": "pages/page_037.webp"
+    },
+    {
+      "n": 38,
+      "title": "스택·힙·버퍼",
+      "chapter": "web",
+      "src": "pages/page_038.webp"
+    },
+    {
+      "n": 39,
+      "title": "포맷 스트링·취약점",
+      "chapter": "web",
+      "src": "pages/page_039.webp"
+    },
+    {
+      "n": 40,
+      "title": "다운로더·드롭퍼·악성코드",
+      "chapter": "web",
+      "src": "pages/page_040.webp"
+    },
+    {
+      "n": 41,
+      "title": "XSS 점검 문자열·httpd Indexes",
+      "chapter": "web",
+      "src": "pages/page_041.webp"
+    },
+    {
+      "n": 42,
+      "title": "파일 전송·업로드 응답",
+      "chapter": "web",
+      "src": "pages/page_042.webp"
+    },
+    {
+      "n": 43,
+      "title": "심볼릭 링크·경로 조작",
+      "chapter": "web",
+      "src": "pages/page_043.webp"
+    },
+    {
+      "n": 44,
+      "title": "파일 업로드 취약점",
+      "chapter": "web",
+      "src": "pages/page_044.webp"
+    },
+    {
+      "n": 45,
+      "title": "PreparedStatement·Oracle 감사",
+      "chapter": "web",
+      "src": "pages/page_045.webp"
+    },
+    {
+      "n": 46,
+      "title": "리눅스 서비스 설정",
+      "chapter": "web",
+      "src": "pages/page_046.webp"
+    },
+    {
+      "n": 47,
+      "title": "XSS 치환·출력 인코딩",
+      "chapter": "web",
+      "src": "pages/page_047.webp"
+    },
+    {
+      "n": 48,
+      "title": "Apache SSL/TLS 설정",
+      "chapter": "web",
+      "src": "pages/page_048.webp"
+    },
+    {
+      "n": 49,
+      "title": "Snort Threshold",
+      "chapter": "ops",
+      "src": "pages/page_049.webp"
+    },
+    {
+      "n": 50,
+      "title": "Snort threshold 규칙 예",
+      "chapter": "ops",
+      "src": "pages/page_050.webp"
+    },
+    {
+      "n": 51,
+      "title": "iptables 체인 기초",
+      "chapter": "ops",
+      "src": "pages/page_051.webp"
+    },
+    {
+      "n": 52,
+      "title": "iptables rate limit",
+      "chapter": "ops",
+      "src": "pages/page_052.webp"
+    },
+    {
+      "n": 53,
+      "title": "hping3·tcpdump 실습",
+      "chapter": "ops",
+      "src": "pages/page_053.webp"
+    },
+    {
+      "n": 54,
+      "title": "Apache 로그 분석",
+      "chapter": "ops",
+      "src": "pages/page_054.webp"
+    },
+    {
+      "n": 55,
+      "title": "Slowloris 대응",
+      "chapter": "ops",
+      "src": "pages/page_055.webp"
+    },
+    {
+      "n": 56,
+      "title": "Snort nocase·탐지",
+      "chapter": "ops",
+      "src": "pages/page_056.webp"
+    },
+    {
+      "n": 57,
+      "title": "Blind SQLi 판별·Snort 룰 예",
+      "chapter": "ops",
+      "src": "pages/page_057.webp"
+    },
+    {
+      "n": 58,
+      "title": "Shellshock·설정 명령",
+      "chapter": "ops",
+      "src": "pages/page_058.webp"
+    },
+    {
+      "n": 59,
+      "title": "레인보우 테이블·해시",
+      "chapter": "ops",
+      "src": "pages/page_059.webp"
+    },
+    {
+      "n": 60,
+      "title": "SET 이중서명",
+      "chapter": "ops",
+      "src": "pages/page_060.webp"
+    },
+    {
+      "n": 61,
+      "title": "포렌식·MDM·DLP·블록체인·CASB",
+      "chapter": "mgmt",
+      "src": "pages/page_061.webp"
+    },
+    {
+      "n": 62,
+      "title": "정보보호정책 3요소",
+      "chapter": "mgmt",
+      "src": "pages/page_062.webp"
+    },
+    {
+      "n": 63,
+      "title": "위협·취약점·위험",
+      "chapter": "mgmt",
+      "src": "pages/page_063.webp"
+    },
+    {
+      "n": 64,
+      "title": "위험 구성 관계",
+      "chapter": "mgmt",
+      "src": "pages/page_064.webp"
+    },
+    {
+      "n": 65,
+      "title": "위험관리계획·위험 처리",
+      "chapter": "mgmt",
+      "src": "pages/page_065.webp"
+    },
+    {
+      "n": 66,
+      "title": "위험 분석 방법·기준선",
+      "chapter": "mgmt",
+      "src": "pages/page_066.webp"
+    },
+    {
+      "n": 67,
+      "title": "ISAC·사이버위기경보",
+      "chapter": "mgmt",
+      "src": "pages/page_067.webp"
+    },
+    {
+      "n": 68,
+      "title": "ISMS PDCA 라이프사이클",
+      "chapter": "mgmt",
+      "src": "pages/page_068.webp"
+    },
+    {
+      "n": 69,
+      "title": "ISMS 인증·CISO 역할",
+      "chapter": "mgmt",
+      "src": "pages/page_069.webp"
+    },
+    {
+      "n": 70,
+      "title": "3법·정보통신기반보호",
+      "chapter": "law",
+      "src": "pages/page_070.webp"
+    },
+    {
+      "n": 71,
+      "title": "개인정보처리자·취급자",
+      "chapter": "law",
+      "src": "pages/page_071.webp"
+    },
+    {
+      "n": 72,
+      "title": "접속기록·다운로드 확인",
+      "chapter": "law",
+      "src": "pages/page_072.webp"
+    },
+    {
+      "n": 73,
+      "title": "유출 통지·14세 미만",
+      "chapter": "law",
+      "src": "pages/page_073.webp"
+    },
+    {
+      "n": 74,
+      "title": "제3자 제공 동의",
+      "chapter": "law",
+      "src": "pages/page_074.webp"
+    },
+    {
+      "n": 75,
+      "title": "가명처리 절차",
+      "chapter": "law",
+      "src": "pages/page_075.webp"
+    },
+    {
+      "n": 76,
+      "title": "접근권한 관리",
+      "chapter": "law",
+      "src": "pages/page_076.webp"
+    },
+    {
+      "n": 77,
+      "title": "CCTV·개인정보보호원칙",
+      "chapter": "law",
+      "src": "pages/page_077.webp"
+    },
+    {
+      "n": 78,
+      "title": "목적 외 이용 예외",
+      "chapter": "law",
+      "src": "pages/page_078.webp"
+    },
+    {
+      "n": 79,
+      "title": "제3자 제공 가능 사유",
+      "chapter": "law",
+      "src": "pages/page_079.webp"
+    },
+    {
+      "n": 80,
+      "title": "가명처리·Smurf 복습",
+      "chapter": "law",
+      "src": "pages/page_080.webp"
+    },
+    {
+      "n": 81,
+      "title": "APT·킬체인·핵심 명령 복습",
+      "chapter": "review",
+      "src": "pages/page_081.webp"
+    },
+    {
+      "n": 82,
+      "title": "NetBIOS 보안·자산중요도·배너",
+      "chapter": "review",
+      "src": "pages/page_082.webp"
+    }
+  ]
+}

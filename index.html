@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="description" content="정보보안기사 기출 요약집 — 손글씨 원본 기반 암기 노트. 가리기·진도·랜덤 복습으로 시험 직전까지 외우기." />
+  <meta name="theme-color" content="#0b1220" />
+  <meta property="og:title" content="정보보안기사 기출 요약집" />
+  <meta property="og:description" content="직접 정리한 기출 핵심 요약본을 웹에서 한 장씩 암기하세요." />
+  <title>정보보안기사 기출 요약집 · 암기 노트</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛡️</text></svg>" />
+</head>
+<body>
+  <div class="backdrop" id="backdrop" hidden></div>
+
+  <div class="app">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-brand" id="brand" title="홈으로">
+        <div class="logo-mark">IS</div>
+        <div>
+          <h1>정보보안기사</h1>
+          <p>기출 요약 암기 노트</p>
+        </div>
+      </div>
+
+      <div class="sidebar-search">
+        <input type="search" id="search" placeholder="키워드 · 페이지 검색…" autocomplete="off" />
+      </div>
+
+      <div class="sidebar-progress">
+        <div class="progress-head">
+          <span>암기 진도</span>
+          <strong id="progress-label">0/82</strong>
+        </div>
+        <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
+      </div>
+
+      <nav class="sidebar-nav" id="sidebar-nav" aria-label="과목 목록"></nav>
+
+      <div class="sidebar-promo">
+        <div class="promo-badge">원본 요약집</div>
+        <p>기출 핵심만 손으로 압축한 <strong>개인 요약본</strong>입니다.</p>
+        <button type="button" class="btn btn-sm btn-accent" id="btn-about">요약집 소개</button>
+      </div>
+    </aside>
+
+    <div class="main">
+      <header class="topbar">
+        <button type="button" class="icon-btn" id="menu-toggle" aria-label="메뉴">☰</button>
+        <div class="breadcrumbs" id="breadcrumbs">홈</div>
+        <div class="topbar-actions">
+          <button type="button" class="btn btn-sm btn-ghost" id="btn-random" title="안 본 페이지 랜덤">🎲 랜덤</button>
+          <button type="button" class="btn btn-sm btn-ghost" id="btn-reset" title="진도 초기화">초기화</button>
+        </div>
+      </header>
+
+      <main class="content" id="content">
+        <div class="empty" id="loading">
+          <div class="spinner"></div>
+          <h3>요약 노트를 불러오는 중…</h3>
+        </div>
+      </main>
+
+      <footer class="site-footer">
+        <div class="site-footer-inner">
+          <div>
+            <div class="footer-brand">정보보안기사 기출 요약집</div>
+            <p class="footer-note">
+              직접 정리한 손글씨 기출 요약본을 원본 그대로 웹에 옮긴 개인 학습용 사이트입니다.
+              무단 재배포·상업 이용을 금합니다.
+            </p>
+          </div>
+          <div class="footer-contact">
+            <div class="label">Contact · 요약집 문의</div>
+            <div class="footer-row"><span class="k">Kakao</span><strong>caramel112</strong></div>
+            <div class="footer-row"><span class="k">Email</span><a href="mailto:caramel2516@naver.com">caramel2516@naver.com</a></div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <!-- study modal / page viewer is in-content -->
+  <script src="js/app.js"></script>
+</body>
+</html>
