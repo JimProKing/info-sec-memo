@@ -3,6 +3,12 @@
 > 시험 전에 노트북 펴고 PDF 스크롤하다가 지쳐서 만들었습니다.  
 > 내가 손으로 적은 기출 요약, 그대로 웹에 올려 두고 매일 넘기려고요.
 
+## 바로 보기
+
+배포 링크: **[https://web-production-b5e1a.up.railway.app/](https://web-production-b5e1a.up.railway.app/)**
+
+설치 없이 브라우저에서 바로 열면 됩니다.
+
 ## 이게 뭔가
 
 시중 교재를 통째로 옮긴 사이트가 **아닙니다.**
@@ -49,9 +55,13 @@ npm run dev
 
 브라우저에서 `http://localhost:8080`
 
-## Railway에 올릴 때
+## Railway 배포
 
-이 레포 그대로 Railway에 붙이면 됩니다.  
+이미 올려 둔 주소:
+
+**https://web-production-b5e1a.up.railway.app/**
+
+처음부터 다시 붙일 때는 이 레포 그대로 Railway에 연결하면 됩니다.  
 환경 변수 따로 필요 없고, `PORT`만 씁니다.
 
 1. Railway → New Project → Deploy from GitHub  
